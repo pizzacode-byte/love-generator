@@ -4,3 +4,5 @@ function love(){
 
     $('#text').html(phrases[Math.floor(Math.random() * phrases.length)]);
 }
+
+module.exports = love;
